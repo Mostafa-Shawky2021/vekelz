@@ -1,10 +1,15 @@
 .header {
-    padding: 30px 29px
+    padding-right: 29px;
+    padding-left: 29px;
 }
 
 .header .logo {
-    width: 248px;
+    width: 221px;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-right: 1px solid #ededed;
+
 }
 
 .logo .img {
@@ -21,6 +26,22 @@
 
 .search-box {
     position: relative;
+    isolation: isolate;
+    margin-left: 28px;
+
+}
+
+.search-box::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #F5F4F6;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 5px;
+
 }
 
 .search-box .icon-search {
@@ -28,7 +49,7 @@
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
-
+    z-index: 1;
 }
 
 .search-box .search-input {
@@ -36,9 +57,11 @@
     height: 35px;
     border-radius: 8px;
     outline: none;
-    background: #F5F4F6;
     border: none;
-    padding-left: 37px;
+    padding: 22px 37px;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
 }
 
 .user-action .notification-wrapper {

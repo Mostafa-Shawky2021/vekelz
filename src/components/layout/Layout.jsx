@@ -10,9 +10,9 @@ export const Layout = ({ children }) => {
         <>
             <Header />
             <div className="d-flex">
-                <div className="sidebar-wrapper" style={sideBarStyle}>
+                <aside className="sidebar-wrapper" style={sideBarStyle}>
                     <Sidebar />
-                </div>
+                </aside>
                 <div className="contnet">
                     {children}
                 </div>

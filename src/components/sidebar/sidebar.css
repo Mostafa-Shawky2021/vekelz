@@ -1,0 +1,35 @@
+.list {
+    padding: 0px 50px 0px 24px;
+}
+
+.list .item {
+    margin-bottom: 7px;
+    padding-left: 8px;
+}
+
+.list .item .text {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.list .item .item-icon {
+    object-fit: contain;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.list .item a {
+    color: #5F6165;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.3s;
+    width: 100%;
+    padding: 7px 0px;
+    display: block;
+}
+
+.list .item:hover {
+    background: #F3F5F8;
+}

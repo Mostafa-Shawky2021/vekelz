@@ -7,7 +7,7 @@ import UserImage from '../../assets/user.png'
 
 export const Header = () => {
     return (
-        <header className="header d-flex">
+        <header className="header d-flex align-items-center">
             <div className="logo d-flex align-items-center">
                 <img className="img" src={Logo} />
                 <h3 className="company-name">Motiv.</h3>

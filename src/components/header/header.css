@@ -4,10 +4,10 @@
 }
 
 .header .logo {
-    width: 221px;
+    width: 223px;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     border-right: 1px solid #ededed;
 
 }
@@ -84,6 +84,7 @@
     object-fit: contain;
     width: 19px;
     height: 19px;
+    cursor: pointer;
 }
 
 .user-action .user-image {

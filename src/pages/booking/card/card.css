@@ -1,0 +1,44 @@
+.box {
+    background-color: #ffff;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+    position: relative
+}
+
+.box .car-name {
+    font-weight: 500;
+    color: #242731;
+    margin: 0px;
+}
+
+.box .car-type {
+    color: #72767C;
+}
+
+.box .car-image {
+    width: 233px;
+    height: 105px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.box .car-info {
+    margin-top: 22px;
+    gap: 19px;
+}
+
+.box .car-info .icon {
+    margin-right: 5px;
+}
+
+.box .car-info .text {
+    color: #72767C
+}
+
+.box .favourite {
+    position: absolute;
+    right: 17px;
+    top: 15px;
+    cursor: pointer;
+}

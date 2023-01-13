@@ -1,0 +1,58 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "name": "Porshe 718 Cayman S",
+            "type": "Coupe",
+            "seatCount": 4,
+            "transmission": "manual",
+            "price": 400,
+            "image": "audi.png"
+        },
+        {
+            "id": 2,
+            "name": "Porshe 718 Cayman S",
+            "type": "Coupe",
+            "seatCount": 4,
+            "transmission": "manual",
+            "price": 400,
+            "image": "mercedus.png"
+        },
+        {
+            "id": 3,
+            "name": "Porshe 718 Cayman S",
+            "type": "Coupe",
+            "seatCount": 4,
+            "transmission": "manual",
+            "price": 400,
+            "image": "whitecar.png"
+        },
+        {
+            "id": 4,
+            "name": "Porshe 718 Cayman S",
+            "type": "Coupe",
+            "seatCount": 4,
+            "transmission": "manual",
+            "price": 400,
+            "image": "suzuki.png"
+        },
+        {
+            "id": 5,
+            "name": "Porshe 718 Cayman S",
+            "type": "Coupe",
+            "seatCount": 4,
+            "transmission": "manual",
+            "price": 400,
+            "image": "toyota.png"
+        },
+        {
+            "id": 6,
+            "name": "Porshe 718 Cayman S",
+            "type": "Coupe",
+            "seatCount": 4,
+            "transmission": "manual",
+            "price": 400,
+            "image": "toyota.png"
+        }
+    ]
+}

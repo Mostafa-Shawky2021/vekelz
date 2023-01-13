@@ -1,0 +1,32 @@
+.booking-wrapper .title {
+    font-size: 25px;
+    color: #414654;
+    font-weight: bold;
+}
+
+.booking-wrapper .select-box {
+    background: #fff;
+    margin-right: 16px;
+    border-radius: 8px;
+    width: 122px;
+    padding: 5px 19px;
+    color: #888;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.booking-wrapper .select-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.booking-wrapper .display-model .icon-display {
+    margin-left: 3px;
+    ;
+}

@@ -1,0 +1,31 @@
+.overview-wrapper {
+    padding-top: 20px;
+    height: 299px;
+    border-radius: 14px;
+    font-size: 21px;
+}
+
+.overview-header .overview-name {
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.overview-wrapper .progress {
+    height: 186px;
+    text-align: center;
+    position: relative;
+
+}
+
+.progress .RCP {
+    width: 100% !important;
+}
+
+.progress .indicator {
+    position: absolute;
+    left: 50%;
+    bottom: 73px;
+    transform: translateX(-50%);
+    font-size: 21px;
+    font-weight: 500;
+}

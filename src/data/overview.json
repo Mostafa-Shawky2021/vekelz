@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "icon": "energy.png",
+            "overviewText": "Energy",
+            "textColor": "#fff",
+            "strokeColor": "#fff",
+            "percentage": "45",
+            "percentageColor": "#fff",
+            "backgroundBox": "#A162F7",
+            "iconBackground": "#A66FF0"
+        },
+        {
+            "icon": "range.png",
+            "overviewText": "Range",
+            "textColor": "#000",
+            "strokeColor": "#FF7E86",
+            "percentage": "57",
+            "percentageColor": "#000",
+            "backgroundBox": "#fff",
+            "iconBackground": "#FF7E86"
+        },
+        {
+            "icon": "break.png",
+            "overviewText": "Break fluid",
+            "textColor": "#000",
+            "strokeColor": "#A162F7",
+            "percentage": "9",
+            "percentageColor": "#000",
+            "backgroundBox": "#fff",
+            "iconBackground": "#A162F7"
+        },
+        {
+            "icon": "tirewater.png",
+            "overviewText": "Tire Wear",
+            "textColor": "#000",
+            "strokeColor": "#F6CC0D",
+            "percentage": "25",
+            "percentageColor": "#fff",
+            "backgroundBox": "#fff",
+            "iconBackground": "#F6CC0D1A"
+        }
+    ]
+}

@@ -1,12 +1,14 @@
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import { layout } from "./components/layout";
-import { Container, Row, Col } from "react-bootstrap";
 import { Layout } from "./components/layout/Layout";
 import { Dashboard } from "./pages/dashboard";
 import { Booking } from "./pages/booking";
+import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css';
+
+
+
 function App() {
   return (
     <Layout>
@@ -15,8 +17,6 @@ function App() {
         <Route exact path="/booking" element={<Booking />} />
       </Routes>
     </Layout>
-
-
   );
 }
 

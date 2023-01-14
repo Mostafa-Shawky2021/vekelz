@@ -27,7 +27,7 @@ export const Booking = () => {
             </div>
 
             <List
-                renderItem={(props) => (<Card key={props.id} {...props} />)}
+                renderItem={(props, _) => (<Card key={props.id} {...props} />)}
                 data={carsData.cars}
             />
 

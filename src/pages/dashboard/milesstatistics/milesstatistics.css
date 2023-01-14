@@ -1,0 +1,40 @@
+.miles-wrapper {
+    background-color: #fff;
+    padding: 15px 33px 0px 25px;
+    border-radius: 15px;
+}
+
+.miles-header .title {
+    font-size: 20px;
+}
+
+.miles-header .title span:first-child {
+    margin-right: 3px;
+}
+
+.date-wrapper .date {
+    margin-top: 24px;
+}
+
+.date .btn-date {
+    width: 85px;
+    border-radius: 24px;
+    border: none;
+    padding: 7px;
+    background-color: transparent;
+    margin-right: 7px;
+}
+
+.date .btn-date.active {
+    background: #2884FF;
+    color: #fff;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.bar-chart {
+    margin-top: 28px;
+    height: 250px;
+}

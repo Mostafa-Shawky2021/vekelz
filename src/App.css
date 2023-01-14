@@ -2,5 +2,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-
+  height: 100%;
+  overflow: scroll;
 }

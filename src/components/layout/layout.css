@@ -3,9 +3,12 @@
     padding-top: 20px;
     padding-right: 29px;
     background-color: #F5F5F5;
+    height: 100%;
 }
 
 .sidebar-wrapper {
     width: 250px;
     margin-top: 10px;
+    height: 100%;
+    ;
 }

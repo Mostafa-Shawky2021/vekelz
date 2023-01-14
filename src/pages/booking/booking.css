@@ -28,5 +28,6 @@
 
 .booking-wrapper .display-model .icon-display {
     margin-left: 3px;
-    ;
+    cursor: pointer;
+
 }

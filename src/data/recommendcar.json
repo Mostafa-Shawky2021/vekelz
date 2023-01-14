@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "recommendPercentage": 65,
+            "carName": "Mini Cooper",
+            "boxBackground": "#E1DFA4",
+            "image": "recommendcar1.png"
+        },
+        {
+            "id": 2,
+            "recommendPercentage": 74,
+            "carName": "Porsche 911 Carrera",
+            "boxBackground": "#E3ECF1",
+            "image": "recommendcar2.png"
+        },
+        {
+            "id": 3,
+            "recommendPercentage": 62,
+            "carName": "Mini Cooper",
+            "boxBackground": "#F4E3E5",
+            "image": "recommendcar3.png"
+        }
+    ]
+}

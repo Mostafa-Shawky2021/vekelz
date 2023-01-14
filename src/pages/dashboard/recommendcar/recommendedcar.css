@@ -1,0 +1,21 @@
+.recommended-car {
+    padding: 18px 23px;
+    border-radius: 12px;
+    margin-top: 30px;
+
+}
+
+.recommended-car .percentage {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.recommended-car .car-name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.recommended-car .car-info {
+    gap: 15px;
+}

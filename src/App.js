@@ -7,7 +7,13 @@ import { Booking } from "./pages/booking";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
-
+const NotFound = () => {
+  return (
+    <div style={{ height: '100%' }}>
+      Not found page
+    </div>
+  )
+}
 
 function App() {
   return (
@@ -15,6 +21,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
         <Route exact path="/booking" element={<Booking />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   );

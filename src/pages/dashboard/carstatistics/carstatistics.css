@@ -1,0 +1,44 @@
+.cars-wrapper {
+    background-color: #fff;
+    padding: 15px 33px 0px 25px;
+    border-radius: 15px;
+}
+
+.cars-header .title {
+    font-size: 20px;
+}
+
+.cars-header .title span:first-child {
+    margin-right: 3px;
+}
+
+.date-wrapper .date {
+    margin-top: 24px;
+}
+
+.date .btn-date {
+    width: 85px;
+    border-radius: 24px;
+    border: none;
+    padding: 7px;
+    background-color: #F5F4F6;
+    margin-right: 7px;
+}
+
+.date .btn-date.active {
+    background: #FF764C;
+    color: #fff;
+}
+
+.info {
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 20px;
+
+}
+
+.area-chart {
+    margin-top: 28px;
+    height: 250px;
+
+}
